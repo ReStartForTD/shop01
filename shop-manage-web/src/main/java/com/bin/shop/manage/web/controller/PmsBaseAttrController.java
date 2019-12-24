@@ -47,4 +47,10 @@ public class PmsBaseAttrController {
        }
            return "success";
    }
+
+    @RequestMapping("baseSaleAttrList")
+    @ResponseBody
+    public List<PmsBaseAttrInfo> getBaseSaleAttrList(){
+           return  pmsBaseAttrService.getAllBaseAttrInfo();
+    }
 }

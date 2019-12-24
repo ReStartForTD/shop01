@@ -60,4 +60,9 @@ public class PmsBaseAttrServiceImpl implements PmsBaseAttrService{
     public int update(PmsBaseAttrInfo pmsBaseAttrInfo) {
         return pmsBaseAttrMapper.updateByPrimaryKeySelective(pmsBaseAttrInfo);
     }
+
+    @Override
+    public List<PmsBaseAttrInfo> getAllBaseAttrInfo() {
+        return pmsBaseAttrMapper.selectAll();
+    }
 }
