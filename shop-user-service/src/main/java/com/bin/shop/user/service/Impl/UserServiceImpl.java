@@ -2,9 +2,9 @@ package com.bin.shop.user.service.Impl;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.bin.shop.api.beans.UmsMember;
-import com.bin.shop.api.beans.UmsMemberReceiveAddress;
-import com.bin.shop.api.service.UserService;
+import com.bin.shop.api.user.beans.UmsMember;
+import com.bin.shop.api.user.beans.UmsMemberReceiveAddress;
+import com.bin.shop.api.user.service.UserService;
 import com.bin.shop.user.service.mapper.UmsMemberReceiveAddressMapper;
 import com.bin.shop.user.service.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;

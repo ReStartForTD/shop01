@@ -1,9 +1,9 @@
 package com.bin.shop.user.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.bin.shop.api.beans.UmsMember;
-import com.bin.shop.api.beans.UmsMemberReceiveAddress;
-import com.bin.shop.api.service.UserService;
+import com.bin.shop.api.user.beans.UmsMember;
+import com.bin.shop.api.user.beans.UmsMemberReceiveAddress;
+import com.bin.shop.api.user.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

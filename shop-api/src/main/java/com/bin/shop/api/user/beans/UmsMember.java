@@ -1,4 +1,4 @@
-package com.bin.shop.api.beans;
+package com.bin.shop.api.user.beans;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

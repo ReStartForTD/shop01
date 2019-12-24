@@ -14,8 +14,8 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.bin.shop</groupId>
-            <artifactId>shop-common-util</artifactId>
+            <groupId>com.atguigu.gmall</groupId>
+            <artifactId>gmall-common-util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

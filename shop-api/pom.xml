@@ -9,6 +9,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.6</version>
+        </dependency>
         <!-- 通用mapper -->
         <dependency>
             <groupId>tk.mybatis</groupId>
@@ -23,5 +29,4 @@
         </dependency>
 
     </dependencies>
-
 </project>
